@@ -1,0 +1,36 @@
+// Header
+header {
+  width: 100%;
+  height: 9rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 10;
+  #moviepedia-title {
+    width: 11rem;
+  }
+  #logo {
+    width: 6rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 1rem;
+  }
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  @include mq($tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

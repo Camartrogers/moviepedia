@@ -1,0 +1,48 @@
+.about-page {
+  padding: em(20);
+}
+.about-page {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.about-wrapper {
+  background-color: rgba($color: black, $alpha: 0.75);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  max-width: 45rem;
+  span {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #logo-about {
+    width: 6rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 1rem;
+  }
+  #title-about {
+    width: 15rem;
+  }
+  .about-copy {
+    text-align: left;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    p {
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+  }
+}
+#tmdb-logo {
+  width: 4rem;
+  padding-bottom: 1rem;
+}

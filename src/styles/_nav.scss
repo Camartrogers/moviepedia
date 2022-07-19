@@ -1,0 +1,43 @@
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  li {
+    flex: 1;
+    margin-right: em(4);
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  a {
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+    text-decoration: none;
+  }
+}
+
+.nav-main {
+  font-size: 1.25rem;
+  @include mq($tablet) {
+    a {
+      padding: 0 em(20);
+    }
+  }
+}
+.nav-sort {
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.sort {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}

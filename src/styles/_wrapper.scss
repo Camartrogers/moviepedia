@@ -1,0 +1,7 @@
+// Wrapper
+.wrapper {
+  max-width: em(1400);
+  margin: 0 auto;
+  @include mq($desktopWide) {
+  }
+}
